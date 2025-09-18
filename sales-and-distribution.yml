@@ -1,0 +1,13 @@
+spring:
+  application:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sales_and_distribution
+    username: root
+    password: Mehta@151
+  jpa:
+    generate-ddl: false
+    show-true: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
