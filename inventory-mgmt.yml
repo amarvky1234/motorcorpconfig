@@ -7,3 +7,9 @@ spring:
   jpa:
     generate-ddl: false
     show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+contactInfo:
+  contactNumber: +91-9784638654
+  emailAddress: no-reply@motorcorp.com
