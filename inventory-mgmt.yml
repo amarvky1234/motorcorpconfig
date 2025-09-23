@@ -11,5 +11,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 contact-info:
-  contact-number: +91-9784638654
-  email-address: no-reply@motorcorp.com
+  contactNumber: +91-9784638654
+  emailAddress: no-reply@motorcorp.com
