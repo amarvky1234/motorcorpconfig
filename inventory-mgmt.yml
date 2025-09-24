@@ -19,6 +19,12 @@ contact-info:
   emailAddress: contact-us@motorcorp.com
 server:
   port: 8080
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka
 ...
 ---
 spring:
@@ -41,4 +47,10 @@ contact-info:
   emailAddress: no-reply@motorcorp.com
 server:
   port: 8081
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:7001/eureka
 ...
