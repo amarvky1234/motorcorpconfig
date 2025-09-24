@@ -17,6 +17,8 @@ spring:
 contact-info:
   contactNumber: +91-9784638654
   emailAddress: contact-us@motorcorp.com
+server:
+  port: 8080
 ...
 ---
 spring:
@@ -37,4 +39,6 @@ spring:
 contact-info:
   contactNumber: +91-9898989898
   emailAddress: no-reply@motorcorp.com
+server:
+  port: 8081
 ...
