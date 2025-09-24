@@ -15,7 +15,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 contact-info:
-  contactNumber: +91-9784638654
+  contactNumber: +91-9090909090
   emailAddress: contact-us@motorcorp.com
 server:
   port: 8080
